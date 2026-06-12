@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
-<rect width="64" height="64" rx="18" fill="#07933e" opacity=".12"/>
-<circle cx="32" cy="32" r="22" fill="none" stroke="#07933e" stroke-width="4"/>
-<text x="32" y="39" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#07933e">✓</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="30" fill="#ECFDF5"/><path d="M32 9 51 17v14c0 13-8 22-19 26-11-4-19-13-19-26V17l19-8Z" stroke="#16A34A" stroke-width="4" stroke-linejoin="round"/><path d="m23 33 6 6 13-14" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
