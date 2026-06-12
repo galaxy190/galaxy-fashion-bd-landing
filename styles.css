@@ -691,8 +691,7 @@ textarea {
 }
 
 .place-order img {
-   width: 20px;
-   height: 20px
+   width: 30px;
 }
 
 /* ================= ORDER SUMMARY END ================= */
@@ -931,8 +930,8 @@ textarea {
 }
 
 .lightbox-content>img {
-   max-height: 72vh;
-   max-width: min(920px, 78vw);
+   height: 300px;
+   width: 40vw;
    border-radius: 16px;
    background: #fff;
    box-shadow: 0 20px 70px rgba(0, 0, 0, .35)
@@ -962,7 +961,13 @@ textarea {
    transform: translateY(-50%);
    width: 54px;
    height: 54px;
-   font-size: 40px
+   font-size: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.lightbox-arrow img{
+   height: 30px;
 }
 
 .lb-prev {
@@ -1179,10 +1184,24 @@ textarea {
    }
 
    .lightbox-content>img {
-      max-width: 72vw;
-      max-height: 65vh
+      width: 70vw;
+      height: 300px;
+   }
+   .lightbox-arrow img{
+      height: 20px;
+   }
+   .lightbox-close {
+      top: 18px;
+      right: 18px;
+      width: 40px;
+      height: 40px;
+      font-size: 38px
    }
 
+   .lightbox-arrow {
+      width: 35px;
+      height: 35px;
+   }
    .lb-prev {
       left: -52px
    }
@@ -1192,14 +1211,14 @@ textarea {
    }
 
    .lightbox-close {
-      width: 48px;
-      height: 48px;
+      width: 35px;
+      height: 35px;
       font-size: 34px
    }
 
    .lightbox-thumbs img {
-      width: 62px;
-      height: 50px
+      width: 52px;
+      height: 40px
    }
 }
 
