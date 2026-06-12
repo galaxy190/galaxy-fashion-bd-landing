@@ -1060,6 +1060,9 @@ textarea {
       height: 40px;
       font-size: 32px
    }
+   .slider-arrow img{
+   height: 20px;
+}
 
    .slider-arrow.prev {
       left: 12px
