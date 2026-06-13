@@ -315,3 +315,22 @@ function renderAll() {
 initSlider();
 renderAll();
 /* ================= RENDER ALL END ================= */
+
+
+
+
+
+//test code eta remove korte hobe pore
+
+async function loadAirtableData() {
+  try {
+    const res = await fetch("/.netlify/functions/get-site-data");
+    const data = await res.json();
+
+    console.log("Airtable Data:", data);
+  } catch (error) {
+    console.error("Airtable load error:", error);
+  }
+}
+
+loadAirtableData();
